@@ -718,7 +718,7 @@ div .ex1 {
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: row nowrap;
+      flex-direction: row;
       width: 100%;
       height: auto;
 }
@@ -741,7 +741,7 @@ div .ex1 {
       display: flex;
       justify-content: flex-start;
       align-items: center;
-      flex-direction: row wrap;
+      flex-direction: row;
 }
 
 .top-logo img {
