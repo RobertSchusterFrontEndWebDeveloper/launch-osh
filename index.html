@@ -16,7 +16,7 @@
       <!-- Slider -->
       <link href="layout/scripts/responsiveslides.js-v1.53/responsiveslides.css" rel="stylesheet" type="text/css" media="all">
 </head>
-<body>
+<body class="">
 <div class="wrapper row1">
       <header id="header" class="full_width clear">
             <div class="one_quarter first left row1">
@@ -48,7 +48,7 @@
             </div>
       </header>
 </div>
-<!-- #########################################  Navigation   ##################################### -->
+<!-- ################################################################################################ -->
 <div class="row3">
   <nav id="topnav">
     <ul>
@@ -59,7 +59,7 @@
       </li>
       <li><a href="pages/training_consulting.html">Consulting / Training</a></li>
       <li><a href="pages/johnspeaking.html">Speaking</a></li>
-      <li><a href="pages/products.html" >Dental Teams</a></li>
+      <li><a href="pages/products.html" >Dental Team Resources</a></li>
       <li><a href="pages/patients.html">Patient Education</a></li>
       <li><a href="pages/about-us.html">About Us</a></li>
       <li><a href="pages/contact.html">Contact Us</a></li>
@@ -69,6 +69,7 @@
       <!-- Content Update October 2021  -->
 <!-- ################## BODY BEGINS HERE ################################################################ -->
 <div class="row1">
+      <!--  This class give us a light gray border at the end of the div -->
       <div class="logo-area">
             <img src="images/thumbs-up.jpg" alt="Happy Healthy people" />
       </div>
@@ -252,10 +253,12 @@
       </div>
 </div>
 <!-- Scripts -->
-<script src="https://code.jquery.com/jquery-latest.min.js"></script>
-<script src="https://code.jquery.com/ui/1.10.1/jquery-ui.min.js"></script>
-
-
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.min.js"></script>
+<script>window.jQuery || document.write('<script src="layout/scripts/jquery-latest.min.js"><\/script>\
+<script src="layout/scripts/jquery-ui.min.js"><\/script>')</script>
+<script>jQuery(document).ready(function($){ $('img').removeAttr('width height'); });</script>
+<script src="layout/scripts/responsiveslides.js-v1.53/responsiveslides.min.js"></script>
 <script src="layout/scripts/jquery-mobilemenu.min.js"></script>
 <script src="layout/scripts/custom.js"></script>
 </body>

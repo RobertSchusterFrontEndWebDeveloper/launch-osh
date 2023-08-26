@@ -2,92 +2,32 @@
 Responsive Template Name: RS-1200 Prototype 38
 File: Custom CSS
 Author: OS Templates
-Author URI: https://www.os-templates.com/
-Licence: <a href="https://www.os-templates.com/template-terms">Website Template Licence</a>
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
 */
 /* -- updated October --2021 */
 /* ----------------------------------------------Wrapper-------------------------------------*/
 
-div.wrapper, .wrapper100{
-      display:block; 
-      width:100%; 
-      height:auto; 
-      margin:0; 
-      padding:0; 
-      text-align:left; 
-      word-wrap:break-word;
-}
+div.wrapper, .wrapper100{display:block; width:100%; height:auto; margin:0; padding:0; text-align:left; word-wrap:break-word;}
 /* ---------------------------------------------header color / blue & gray -----------------*/
-.row1, .row1 a{
-      color:#FFFFFF; 
-      background-color:#003366;
-}
-
+.row1, .row1 a{color:#FFFFFF; background-color:#003366;}
 /* ---------------------------------------------navigation ends-------------------------*/
-.row2{
-      color:#666666; 
-      background-color:#F0F8FF; 
-      border-bottom:1px solid #4d4d4d;
-}
-.row3{
-      color:#666666; 
-      background-color:#FFFFFF;
-}
-/* ------ TESTAMONIAL TEXT ------------*/
-.row4, .row4 a{
-      color:#919191; 
-      background-color:#003366;
-}
-.row5{
-      color:#666666; 
-      background-color:#FFFFFF; 
-      border-bottom:1px solid #E5E4E3;
-}
-.row6{
-      color:#003366; 
-      background-color:#99ccff;
-}
-.row7{
-      color:#FFFFFF; 
-      background-color:#b14a3b;
-}
-/* --  Above provides Bright background used on Products and Team resources page red/brown --*/
+.row2{color:#666666; background-color:#F0F8FF; border-bottom:1px solid #4d4d4d;}
+.row3{color:#666666; background-color:#FFFFFF;}/* ------ TESTAMONIAL TYPE TEXT next row------------*/
+.row4, .row4 a{color:#919191; background-color:#003366;}
+.row5{color:#666666; background-color:#FFFFFF; border-bottom:1px solid #E5E4E3;}
+.row6{color:#003366; background-color:#99ccff;}
+.row7{color:#FFFFFF; background-color:#b14a3b;}/* --  Bright background used on Products and Team resources page red/brown --*/
 
 /*----------------------------------------------Generalise-------------------------------------*/
 
-body{
-      font-family:Arial, Helvetica, sans-serif;
-      width: 98%;
-}
+body{font-family:Arial, Helvetica, sans-serif;}
 
-h1 {
-      padding: 10px 0 10px 0; 
-      font-size:1.50em; 
-      line-height: 1.75em; 
-      font-family: Arial, Helvetica, sans-serif; font-weight:normal; 
-      line-height:normal; 
-      text-transform:none;
-}
+h1 {padding: 10px 0 10px 0; font-size:1.50em; line-height: 1.75em; font-family: Arial, Helvetica, sans-serif; font-weight:normal; line-height:normal; text-transform:none;} /*  Used as first headline of page as page topic */
 
-h2 {
-      margin: 0 0 2em 0; 
-      font-size:1.8em; font-family: 
-      Arial, Helvetica, sans-serif; 
-      font-weight:normal; 
-      line-height:normal; 
-      text-transform:none; 
-}
+h2 {margin: 0 0 2em 0; font-size:1.8em; font-family: Arial, Helvetica, sans-serif; font-weight:normal; line-height:normal; text-transform:none; }
 
-/* used in bluebars other than first one of page  */
-h3 {
-      padding: 10px 0 10px 0; 
-      margin: 0; font-size:2em; 
-      line-height: 1.75em; 
-      font-family: Arial, Helvetica, sans-serif; 
-      font-weight:normal; 
-      line-height:normal; 
-      text-transform:none;
-} 
+h3 {padding: 10px 0 10px 0; margin: 0; font-size:2em; line-height: 1.75em; font-family: Arial, Helvetica, sans-serif; font-weight:normal; line-height:normal; text-transform:none;} /* used in bluebars other than first one of page  */
 
 /* script type for about us page */
 h3 span {
@@ -101,26 +41,9 @@ h3 span {
       margin: 0;
 }
 
-/* used in footer phone #  */
-h4 {
-      margin:0 0 15px 0; 
-      padding: 0; 
-      font-size:1.6em; 
-      font-family: Arial, Helvetica, sans-serif; 
-      font-weight:normal; 
-      line-height:1.5; 
-      text-transform:none;
-}  
+h4 {margin:0 0 15px 0; padding: 0; font-size:1.6em; font-family: Arial, Helvetica, sans-serif; font-weight:normal; line-height:1.5; text-transform:none;}  /* used in footer phone #  */
 
-h5{
-      margin:0 0 30px 0; 
-      font-size:1.8em; 
-      font-family: Arial, Helvetica, sans-serif; 
-      font-weight:normal; 
-      line-height:normal; 
-      text-transform:none;
-}
-
+h5{margin:0 0 30px 0; font-size:1.8em; font-family: Arial, Helvetica, sans-serif; font-weight:normal; line-height:normal; text-transform:none;}
 /* --  for the font in the blue box below full image  -- */
 h6 {
       font-size: 1.5em;
@@ -133,39 +56,22 @@ h6 {
 }
 
 
-address{
-      margin:10px 0; 
-      font-style:normal;
-}
+address{margin:10px 0; font-style:normal;}
 
-nav ul{
-      margin:0; 
-      padding:0; 
-      list-style: none;
-}
+nav ul{margin:0; padding:0; list-style: none;}
 
-#header, #topnav, #intro, #container, #footer, #copyright{
-      margin:0 auto;
-}
+#header, #topnav, #intro, #container, #footer, #copyright{margin:0 auto;}
 
 #footer {
       padding-left: .5em;
       padding-right: .5em;
 }
 
-p {
-      font-size: 1.50em; 
-      line-height: 1.75em; 
-      padding: 10px 0 10px 0; 
-      font-family: Arial, Helvetica, sans-serif; 
-      font-weight:normal; 
-      text-transform:none;
-}
+p {font-size: 1.50em; line-height: 1.75em; padding: 10px 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-weight:normal; text-transform:none;}
 
 /*----------------------------------------------Header-------------------------------------*/
-#header{
-      padding: 0 0 0 0;
-}
+
+#header{padding: 0 0 0 0;}
 
 #header {
       display:flex;
@@ -259,80 +165,38 @@ p {
 header {
       max-width: 100%;
 }
-
+/*----------------------------------------------------------------------------------------*/
 /*-----------------------------------------Navigation-------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+
 /* Top Navigation */
+/* -----  NEXT BACKGRND COLOR BACK OF NAV BAR --------           */
 #topnav{
       padding:0 0 0 300px;
       color:#F0F8FF;
-      background-color: #fff; 
-      clear:both; 
-      word-wrap:normal;
+      background-color: #fff; /* changed from #F0F8FF; a light blue background */
+      clear:both; word-wrap:normal;
       white-space:nowrap;
       display: flex;
       align-items: center;
 }
 
-#topnav ul{
-      margin:0; 
-      padding:0; 
-      list-style:none; 
-      text-transform:uppercase; 
-      font-size:12px;
-}
-#topnav ul ul{
-      z-index:9999; 
-      position:absolute; 
-      width:190px; 
-      text-transform:none;
-}
-#topnav ul ul ul, #topnav ul ul ul ul{
-      left:190px; 
-      top:0;
-}
-#topnav ul:first-child li:last-child > ul{
-      right:0;
-}
-#topnav ul:first-child > li:last-child li > ul{
-      left:-190px;
-}
-#topnav li{
-      position:relative; 
-      display:block; 
-      display: flex; 
-      justify-content: center; 
-      margin:0 30px 0 0; 
-      padding:0;
-}
-#topnav li:first-child{
-      text-transform: none;
-}
-#topnav ul:first-child li:last-child{
-      margin-right:0;
-}
-#topnav li li{
-      width:100%; 
-      margin:0;
-}
-#topnav li a{
-      display:block; 
-      padding:20px 0;
-}
-#topnav li li a{
-      display:block; 
-      margin:0; 
-      padding:10px 15px;
-}
-#topnav ul ul{
-      display:none;
-}
-#topnav ul li:hover > ul{
-      display:inline-block; 
-      top: 100%;
-}
+#topnav ul{margin:0; padding:0; list-style:none; text-transform:uppercase; font-size:12px;}
+#topnav ul ul{z-index:9999; position:absolute; width:190px; text-transform:none;}
+#topnav ul ul ul, #topnav ul ul ul ul{left:190px; top:0;}
+#topnav ul:first-child li:last-child > ul{right:0;}
+#topnav ul:first-child > li:last-child li > ul{left:-190px;}
+#topnav li{position:relative; display:block; display: flex; justify-content: center; margin:0 30px 0 0; padding:0;}
+#topnav li:first-child{}
+#topnav ul:first-child li:last-child{margin-right:0;}
+#topnav li li{width:100%; margin:0;}
+#topnav li a{display:block; padding:20px 0;}
+#topnav li li a{display:block; margin:0; padding:10px 15px;}
+#topnav ul ul{display:none;}
+#topnav ul li:hover > ul{display:inline-block; top: 100%;}
 #topnav a{
       color:#6666FF;
-      background-color: #fff; 
+      background-color: #fff; /* changed from #F0F8FF; a light blue */
       font-weight:bold;
 }
 #topnav li li a, #topnav li.active li a{
@@ -342,7 +206,7 @@ header {
 }
 #topnav li.active a, #topnav a:hover{
       color:#99CCFF;
-      background-color: #fff; 
+      background-color: #fff; /* changed from #F0F8FF; light blue  */
 }
 #topnav ul li li:hover > a{
       color:#6666FF;
@@ -357,235 +221,67 @@ header {
 
 /* Top navigation for smaller resolutions */
 
-#topnav form{
-      display:block; 
-      height:30px; 
-      margin:0 auto; 
-      padding:20px 0;
-}
-#topnav form select{
-      display:block; 
-      width:100%; 
-      padding:8px; 
-      color:#FFFFFF; 
-      background-color:#232323; 
-      border:1px solid #494949; 
-      cursor:pointer; 
-      outline:none;
-}
-#topnav form select option{
-      display:block; 
-      margin:10px; 
-      padding:0; 
-      cursor:pointer; 
-      outline:none; 
-      border:none;
-}
+#topnav form{display:block; height:30px; margin:0 auto; padding:20px 0;}
+#topnav form select{display:block; width:100%; padding:8px; color:#FFFFFF; background-color:#232323; border:1px solid #494949; cursor:pointer; outline:none;}
+#topnav form select option{display:block; margin:10px; padding:0; cursor:pointer; outline:none; border:none;}
 
 /* Sidebar Navigation */
 
-.sidebar aside nav{
-      display:block; 
-      width:100%; 
-      margin-bottom:30px;
-}
-.sidebar aside nav ul{
-      margin:0; 
-      padding:0; 
-      list-style:none;
-}
-.sidebar aside nav li{
-      margin:0 0 3px 0; 
-      padding:0;
-}
-.sidebar aside nav a{
-      display:block; 
-      margin:0; 
-      padding:5px 10px 5px 20px; 
-      color:#666666; 
-      background-color:inherit; 
-      background:url("images/orange_file.gif") no-repeat 10px center; 
-      text-decoration:none; 
-      border-bottom:1px dotted #666666;
-}
-.sidebar aside nav a:hover{
-      color:#6666FF; 
-      background-color:inherit;
-}
-.sidebar aside nav ul ul a{
-      background:url("images/black_file.gif") no-repeat;
-}
-.sidebar aside nav ul ul a{
-      padding-left:40px; 
-      background-position:30px center;
-}
-.sidebar aside nav ul ul ul a{
-      padding-left:50px; 
-      background-position:40px center;
-}
-.sidebar aside nav ul ul ul ul a{
-      padding-left:60px; 
-      background-position:50px center;
-}
-.sidebar aside nav ul ul ul ul ul a{
-      padding-left:70px; 
-      background-position:60px center;
-}
+.sidebar aside nav{display:block; width:100%; margin-bottom:30px;}
+.sidebar aside nav ul{margin:0; padding:0; list-style:none;}
+.sidebar aside nav li{margin:0 0 3px 0; padding:0;}
+.sidebar aside nav a{display:block; margin:0; padding:5px 10px 5px 20px; color:#666666; background-color:inherit; background:url("images/orange_file.gif") no-repeat 10px center; text-decoration:none; border-bottom:1px dotted #666666;}
+.sidebar aside nav a:hover{color:#6666FF; background-color:inherit;}
+.sidebar aside nav ul ul a{background:url("images/black_file.gif") no-repeat;}
+.sidebar aside nav ul ul a{padding-left:40px; background-position:30px center;}
+.sidebar aside nav ul ul ul a{padding-left:50px; background-position:40px center;}
+.sidebar aside nav ul ul ul ul a{padding-left:60px; background-position:50px center;}
+.sidebar aside nav ul ul ul ul ul a{padding-left:70px; background-position:60px center;}
 
 /* Pagination */
 
-.pagination{
-      display:block; 
-      width:100%; 
-      text-align:center; 
-      clear:both; 
-      line-height:normal;
-}
-.pagination ul{
-      margin:0; 
-      padding:0; 
-      list-style:none;
-}
-.pagination li{
-      display:inline;
-}
-.pagination strong{
-      font-weight:normal;
-}
-.pagination .next{
-      margin:0;
-}
-.pagination a, .pagination .current strong, .pagination .splitter strong{
-      display:inline-block; 
-      padding:5px 10px; 
-      margin:1px 2px;
-}
-.pagination a:first-child{
-      margin-left:0;
-}
-.pagination a{
-      border:1px solid #DFDFDF;
-}
+.pagination{display:block; width:100%; text-align:center; clear:both; line-height:normal;}
+.pagination ul{margin:0; padding:0; list-style:none;}
+.pagination li{display:inline;}
+.pagination strong{font-weight:normal;}
+.pagination .next{margin:0;}
+.pagination a, .pagination .current strong, .pagination .splitter strong{display:inline-block; padding:5px 10px; margin:1px 2px;}
+.pagination a:first-child{margin-left:0;}
+.pagination a{border:1px solid #DFDFDF;}
 
 /* Footer Navigation */
 
-.footer_nav{
-      margin:0; 
-      padding:0;
-}
-.footer_nav ul li{
-      margin-top:12px; 
-      padding-top:12px; 
-      border-top:1px solid #003366;
-}
-.footer_nav ul li:first-child{
-      margin-top:0; 
-      padding-top:0; 
-      border-top:none;
-}
+.footer_nav{margin:0; padding:0;}
+.footer_nav ul li{margin-top:12px; padding-top:12px; border-top:1px solid #003366;}
+.footer_nav ul li:first-child{margin-top:0; padding-top:0; border-top:none;}
 
 /*  Links  */
-a{
-      color:#6666ff; 
-      outline:none; 
-      text-decoration:none;
-}
+a{color:#6666ff; outline:none; text-decoration:none;}
 
 /* Call To Action - Best used as a full width banner */
 
-.calltoaction{
-      display:block; 
-      padding:30px; 
-      text-transform:uppercase; 
-      font-size:1em; 
-      color:#000000; 
-      background-color:#EFEFEF;
-}
-#container .calltoaction h1{
-      margin:0 0 12px 0; 
-      padding:0; 
-      font-size:2.5em; 
-      text-transform:uppercase;
-}
-.calltoaction p{
-      margin:0; 
-      padding:0; 
-      line-height:1.4em; 
-      text-transform:none;
-}
-.calltoaction .button{
-      display:block; 
-      text-align:center; 
-      line-height:1.4em;
-}
+.calltoaction{display:block; padding:30px; text-transform:uppercase; font-size:1em; color:#000000; background-color:#EFEFEF;}
+#container .calltoaction h1{margin:0 0 12px 0; padding:0; font-size:2.5em; text-transform:uppercase;}
+.calltoaction p{margin:0; padding:0; line-height:1.4em; text-transform:none;}
+.calltoaction .button{display:block; text-align:center; line-height:1.4em;}
 
-.calltoaction.opt1{
-      border:solid #FFFF00; 
-      border-width:0 0 0 5px;
-}
-.calltoaction.opt2{
-      border:solid #FFFF00; 
-      border-width:0 5px 0 0;
-}
-.calltoaction.opt3{
-      border:solid #FFFF00; 
-      border-width:0 5px;
-}
-.calltoaction.opt4{
-      border:solid #FFFF00; 
-      border-width:2px 0; 
-      font-size:1.8em;
-}
-#container .calltoaction.opt4 h1{
-      margin:15px 0 0 0;
-}
+.calltoaction.opt1{border:solid #FFFF00; border-width:0 0 0 5px;}
+.calltoaction.opt2{border:solid #FFFF00; border-width:0 5px 0 0;}
+.calltoaction.opt3{border:solid #FFFF00; border-width:0 5px;}
+.calltoaction.opt4{border:solid #FFFF00; border-width:2px 0; font-size:1.8em;}
+#container .calltoaction.opt4 h1{margin:15px 0 0 0;}
 
 /* Forms */
 
-form, fieldset, legend{
-      margin:0; 
-      padding:0; 
-      border:none;
-}
-legend{
-      display:none;
-}
-form{
-      display:block; 
-      width:100%;
-}
-form input, form textarea{
-      display:block; 
-      width:100%; 
-      padding:5px; 
-      border:1px solid #E5E4E3; 
-      -webkit-box-sizing:border-box; 
-      -moz-box-sizing:border-box; 
-      box-sizing:border-box;
-}
-#respond form label, form textarea{
-      margin-bottom:15px;
-}
-form textarea{
-      overflow:auto;
-}
-form div, form p{
-      margin:0; 
-      padding:0;
-}
-form input[type="submit"], form input[type="reset"]{
-      display:inline-block; 
-      width:auto; 
-      margin:0; 
-      padding:5px 15px; 
-      color:#666666; 
-      background-color:#FFFFFF; 
-      cursor:pointer;
-}
-input, textarea, select{
-      resize:none; 
-      outline:none;
-}
+form, fieldset, legend{margin:0; padding:0; border:none;}
+legend{display:none;}
+form{display:block; width:100%;}
+form input, form textarea{display:block; width:100%; padding:5px; border:1px solid #E5E4E3; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+#respond form label, form textarea{margin-bottom:15px;}
+form textarea{overflow:auto;}
+form div, form p{margin:0; padding:0;}
+form input[type="submit"], form input[type="reset"]{display:inline-block; width:auto; margin:0; padding:5px 15px; color:#666666; background-color:#FFFFFF; cursor:pointer;}
+input, textarea, select{resize:none; outline:none;}
 
 
 /* paragraph indent */
@@ -718,7 +414,7 @@ div .ex1 {
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: row;
+      flex-direction: row nowrap;
       width: 100%;
       height: auto;
 }
@@ -741,7 +437,7 @@ div .ex1 {
       display: flex;
       justify-content: flex-start;
       align-items: center;
-      flex-direction: row;
+      flex-direction: row wrap;
 }
 
 .top-logo img {
@@ -898,12 +594,12 @@ div .ex1 {
 }
 
 .pricingtable-wrapper, .pricingtable, .pricingtable-title  {
-      background-color:#F0F8FF; 
+      background-color:#F0F8FF; /* light blue */
 }
 
 .pricingtable-wrapper.rnd10 .pricingtable-title, .pricingtable-wrapper.rnd10 .pricingtable-price {
       color: #ffffff;
-      background-color: #003366; 
+      background-color: #003366; /* dark blue */
 }
 
 .product-placement-top {
@@ -1259,13 +955,15 @@ ul img {
 #header, #topnav, #intro, #container, #footer, #copyright, .stretched {
     min-width: max-width: 2400px;
 
+
 }
 
-@media only screen and (min-width: 759px ) {
+@media only screen and (min-width: 759px max-width: 2400px) {
       .one_half:first-child {
             margin: 0;
             padding: 0;
       }
+
 
       .one_fifth {
             width: 19.5%;
